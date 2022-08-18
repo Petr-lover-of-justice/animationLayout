@@ -1,0 +1,39 @@
+
+.root{
+    padding-top: 35.5px;
+}
+.imgProduct{
+    display:flex;
+    .logo{
+        width:40px;
+        height: 40px;
+    }
+    h3{
+        padding-left: 8px;
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: bold;
+        padding-top: 5px;
+    }
+}
+.navbar-nav{
+    margin-left: 267px;
+}
+ a{
+    margin-left: 25px;
+}
+.btn{
+    width:108px;
+    height: 42px;
+    background-color:#48B774;
+    border-radius:20px;
+    button{
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+        color:#fff;
+        padding: 9px 23px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+}

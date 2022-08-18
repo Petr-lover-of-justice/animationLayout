@@ -1,0 +1,55 @@
+.root {
+    margin-top: 50px;
+  position: relative;
+  input {
+    width: 597px;
+    height: 62px;
+    border-radius: 100px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 40px;
+  }
+  ::-webkit-input-placeholder {
+    border-radius: 100px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+.clearIcon {
+  min-width: 25px;
+  min-height: 25px;
+  opacity: 1;
+  position: absolute;
+  
+  left: 550.67px;
+  top: 18.67px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.loupe {
+  width: 55px;
+  height: 55px;
+  opacity: 1;
+  position: absolute;
+  left: 536px;
+  top: 4px;
+  background-color: #48b774;
+  border-radius: 50px;
+  cursor: pointer;
+  img {
+    min-width: 25px;
+    min-height: 25px;
+    padding: 14.67px;
+  }
+}
+.error{
+    color: red;
+}
